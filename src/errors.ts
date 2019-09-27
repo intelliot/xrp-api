@@ -10,7 +10,10 @@ const ERRORS = {
     return e;
   })(),
   CODES: {
+    NOT_FOUND: 404,
     GET_SETTINGS: 1000,
+    GET_TRANSACTIONS: 1010,
+    MISSING_V1: 8000,
     UNSPECIFIED: 9000
   }
 };
