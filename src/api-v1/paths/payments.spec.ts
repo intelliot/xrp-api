@@ -22,6 +22,10 @@ describe(path, () => {
       .end(done);
   });
 
+  // POST - supports destination_tag: 0
+  // POST - supports source_tag: 0
+  // POST - supports source_tag: 0 and destination_tag: 0
+
   // it('GET - passes along ledger_index', (done) => {
   //   sinon.stub(rippleApi, 'isConnected').returns(true);
   //   sinon.stub(rippleApi, 'request').withArgs('account_info', {
